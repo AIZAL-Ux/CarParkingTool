@@ -4,6 +4,7 @@ import random
 import requests
 from time import sleep
 import os, signal, sys
+from pyfiglet import figlet_format
 from rich.console import Console
 from rich.prompt import Prompt, IntPrompt
 from rich.text import Text
@@ -39,14 +40,7 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name =  "_______  _______  _______  _______  _______  _____ _______  ___  \n"
-    brand_name += "|        __   __  __ |_| ___  _______   | |      ______  __     |    \n"
-    brand_name += "|      __  __   __       ___  _______   | |____  ______  __     |    \n"
-    brand_name += "|      __  __   __       ___  _______   |  ____| ______  __     |    \n"
-    brand_name += "|      _||      __  _______  ___   _______  _______  ___     \n"
-    brand_name += "|      |     |_ |   |    |_   __  _______  __  | | |_____ |   _   ||       |\n"
-    brand_name += "|_______||___|    |_|   |_||__| |__||___| |_______||__| |__||_______|\n"
-    
+    brand_name = figlet_format('CarParkingTool', font='drpepper')
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
