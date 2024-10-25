@@ -14,8 +14,8 @@ from pystyle import Colors, Colorate
 
 from carparktool import CarParkTool
 
-__CHANNEL_USERNAME__ = "CP_Aizal"
-__GROUP_USERNAME__   = "CP_Aizal_chat"
+__CHANNEL_USERNAME__ = "cpmgala"
+__GROUP_USERNAME__   = "cpmgala_chat"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
