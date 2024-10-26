@@ -14,8 +14,8 @@ from pystyle import Colors, Colorate
 
 from carparktool import CarParkTool
 
-__CHANNEL_USERNAME__ = "cp_aizal"
-__GROUP_USERNAME__   = "cp_aizal_chat"
+__CHANNEL_USERNAME__ = "cp_ayan"
+__GROUP_USERNAME__   = "cp_ayan_chat"
 
 def signal_handler(sig, frame):
     print("\n Bye Bye...")
@@ -40,7 +40,7 @@ def gradient_text(text, colors):
 
 def banner(console):
     os.system('cls' if os.name == 'nt' else 'clear')
-    brand_name = figlet_format('CPMAIZAL', font='bloody')
+    brand_name = figlet_format('CPMAYAN', font='bloody')
     colors = [
         "rgb(255,0,0)", "rgb(255,69,0)", "rgb(255,140,0)", "rgb(255,215,0)", "rgb(173,255,47)", 
         "rgb(0,255,0)", "rgb(0,255,255)", "rgb(0,191,255)", "rgb(0,0,255)", "rgb(139,0,255)",
