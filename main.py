@@ -12,7 +12,7 @@ from rich.style import Style
 import pystyle
 from pystyle import Colors, Colorate
 
-from cpmgala import CPMGala
+from carparktool import CarParkTool
 
 __CHANNEL_USERNAME__ = "CP_Ayan"
 __GROUP_USERNAME__   = "CP_Ayan_chat"
@@ -136,7 +136,7 @@ if __name__ == "__main__":
         acc_password = prompt_valid_value("[bold][?] Account Password[/bold]", "Password", password=False)
         acc_access_key = prompt_valid_value("[bold][?] Access Key[/bold]", "Access Key", password=False)
         console.print("[bold cyan][%] Trying to Login[/bold cyan]: ", end=None)
-        cpm = CPMGala(acc_access_key)
+        cpm = CarParkTool(acc_access_key)
         login_response = cpm.login(acc_email, acc_password)
         if login_response != 0:
             if login_response == 100:
