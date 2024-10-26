@@ -1,12 +1,17 @@
-- 👋 Hi, I’m @CarParkingTool
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+1- pkg update
 
-<!---
-CarParkingTool/CarParkingTool is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+2- pkg install git
+
+3- pkg install python
+
+4- pkg install python-pip
+
+5- git clone https://github.com/CPMAyan/cpmayan.git
+
+6- cd cpmayan
+
+7- git pull
+
+8- pip install -r requirements.txt
+
+9- python main.py
